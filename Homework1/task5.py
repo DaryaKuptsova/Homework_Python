@@ -8,10 +8,10 @@
 100 -> 1 (1 + 0 + 0) |
 """
 
-print ("Введите трехзначное число: ")
+print("Введите трехзначное число: ")
 num = int(input())
 firstN = num % 10
 secondN = num % 100 // 10
 thirdN = num // 100
-sum = firstN + secondN + thirdN
-print(f"Сумма цифр трехзначного числа = {sum}.")
+amount = firstN + secondN + thirdN
+print(f"Сумма цифр трехзначного числа = {amount}.")

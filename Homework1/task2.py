@@ -9,6 +9,6 @@
 Введите время в секундах: 3600
 Время в формате ч:м:с - 1.0 : 60.0 : 3600
 """
-print ("Введите время в секундах: ")
+print("Введите время в секундах: ")
 seconds = int(input())
-print (f"Время в формате ч:м:с - {round(seconds/3600, 2)} : {round(seconds/60, 2)} : {seconds}")
+print(f"Время в формате ч:м:с - {round(seconds/3600, 2)} : {round(seconds/60, 2)} : {seconds}")

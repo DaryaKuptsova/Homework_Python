@@ -8,7 +8,7 @@
 Введите число n: 3
 n + nn + nnn = 369
 """
-print ("Введите целое положительное число n: ")
+print("Введите целое положительное число n: ")
 n = input()
-sum = int(n) + int(str(n+n)) + int(str(n+n+n))
-print (f"n + nn + nnn = {sum}")
+result = int(n) + int(str(n+n)) + int(str(n+n+n))
+print(f"n + nn + nnn = {result}")
