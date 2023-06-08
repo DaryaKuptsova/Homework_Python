@@ -82,3 +82,5 @@ def main(): #основной код
             action = 5
 
 main()
+
+
